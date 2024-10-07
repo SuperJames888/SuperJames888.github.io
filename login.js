@@ -1,4 +1,5 @@
 import { database, ref, get, child } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
+import { database } from './firebaseConfig.js';
 
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
   e.preventDefault();
