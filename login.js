@@ -1,4 +1,4 @@
-import { ref, get, child } from "firebase/database";
+import { ref, get, child } from "./node_modules/@firebase/database";
 import { database } from './firebaseConfig.js';
 
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
