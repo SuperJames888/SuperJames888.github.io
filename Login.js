@@ -1,7 +1,5 @@
 import { database, ref, get, child } from "firebase/database";
-import firebaseConfig from './firebase.js';
 
-firebase.initializeApp(firebaseConfig);
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const password = document.getElementById('password').value;
