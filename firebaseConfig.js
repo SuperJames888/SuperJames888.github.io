@@ -3,7 +3,7 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.14.0/firebase
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
 
 const firebaseConfig = {
-  apiKey:"AIzaSyBr36uGN7tGmFqPpZsq7JVpE91uvJM1y7s"
+  apiKey:"AIzaSyBr36uGN7tGmFqPpZsq7JVpE91uvJM1y7s",
   authDomain: "super-james-888-github-site.firebaseapp.com",
   databaseURL: "https://super-james-888-github-site-default-rtdb.firebaseio.com",
   projectId: "super-james-888-github-site",
